@@ -1,0 +1,2 @@
+method,software,p_value,interpretation
+Phi test,External software required: SplitsTree or PhiPack,0.2098,No statistically significant recombination signal was detected at the 5% significance level.

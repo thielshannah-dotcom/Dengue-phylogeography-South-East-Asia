@@ -1,0 +1,52 @@
+EXTERNAL SOFTWARE STEPS FOR THE DENV GENOMIC ANALYSIS
+==================================================
+
+1. SplitsTree4 / Phi test
+   - Open outputs/DENV_alignment_cleaned.fas in SplitsTree4.
+   - Run the Phi test for recombination.
+   - Report the p-value.
+   - If p > 0.05, there is no statistically significant evidence of recombination.
+   - If p <= 0.05, recombination may violate the assumption of a single tree-like history.
+
+2. IQ-TREE
+   - Open a terminal in the project root folder.
+   - Run the commands written in outputs/iqtree_commands.txt.
+   - Use the best-fit substitution model selected by ModelFinder.
+   - The ML tree file produced by the commands is outputs/DENV_ML.treefile.
+
+3. TempEst
+   - Open the IQ-TREE treefile in TempEst.
+   - Import sampling dates from outputs/tempest_dates.txt.
+   - Check root-to-tip divergence against sampling time.
+   - A positive root-to-tip relationship was used as evidence of temporal signal.
+
+4. BEAUti / BEAST: time-calibrated phylogenetics
+   - Import outputs/DENV_alignment_cleaned.fas into BEAUti.
+   - Import or enter tip dates from outputs/beast_tip_dates.tsv.
+   - Use decimal dates or calendar dates consistently.
+   - Select an appropriate substitution model based on IQ-TREE/ModelFinder.
+   - Choose a molecular clock model after considering the TempEst result.
+   - Choose a tree prior appropriate for an epidemic dataset.
+
+5. BEAUti / BEAST: phylogeography
+   - To make the analysis phylogeographic, add a location trait for each taxon.
+   - Use outputs/beast_discrete_location_traits.tsv for discrete country-level phylogeography.
+   - The trait column is named 'location' and contains VNM, THA, KHM, LAO, or CHN.
+   - In BEAUti, configure a discrete trait / discrete phylogeographic model on this location trait.
+   - Without this trait, this analysis remains dated phylogennetics rather than discrete phylogeography.
+   - If the course requires continuous phylogeography, create a separate coordinate table
+     with taxon/longitude/latitude columns; this script currently exports only discrete country states.
+
+6. Tracer
+   - Open the BEAST .log file in Tracer.
+   - Check ESS values; ESS > 200 was used as a practical convergence threshold.
+   - Inspect whether posterior, likelihood, clock rate, and tree parameters mix well.
+
+7. TreeAnnotator
+   - Summarise the posterior tree distribution after removing an appropriate burn-in.
+   - Produce a maximum clade credibility tree.
+
+8. FigTree
+   - Open the MCC tree.
+   - Display node ages, posterior probabilities, and location states if available.
+   - Use the location trait to colour branches or tips for phylogeographic interpretation.

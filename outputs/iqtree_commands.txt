@@ -1,0 +1,44 @@
+# IQ-TREE 3 command template
+# =========================
+
+# Open a Terminal in the project root folder.
+# The project root is the folder containing data/ and outputs/.
+
+# Then run the recommended command below:
+
+# Recommended IQ-TREE 3 command:
+iqtree3 -s outputs/DENV_alignment_cleaned.fas -m MFP -B 1000 --prefix outputs/DENV_ML
+
+# Command explanation:
+#   iqtree3
+#     Calls IQ-TREE version 3.
+#
+#   -s outputs/DENV_alignment_cleaned.fas
+#     Input FASTA alignment.
+#
+#   -m MFP
+#     Runs ModelFinder Plus.
+#     IQ-TREE tests substitution models and uses the best model automatically.
+#
+#   -B 1000
+#     Runs 1000 ultrafast bootstrap replicates.
+#     This gives branch support values.
+#
+#   --prefix outputs/DENV_ML
+#     Sets the output file prefix.
+#     This keeps IQ-TREE output files grouped under the same prefix.
+
+# Main output files produced by IQ-TREE 3:
+#   outputs/DENV_ML.iqtree    = full IQ-TREE report, including selected model
+#   outputs/DENV_ML.treefile  = maximum-likelihood tree used for TempEst and plotting
+#   outputs/DENV_ML.log       = IQ-TREE log file
+#   outputs/DENV_ML.contree   = consensus tree with bootstrap support
+
+# Alternative step-by-step workflow:
+
+# 1. Run ModelFinder only:
+iqtree3 -s outputs/DENV_alignment_cleaned.fas -m MF --prefix outputs/DENV_modeltest
+
+# 2. Then run tree inference manually with the selected model:
+# Replace <BEST_MODEL> with the best model reported in outputs/DENV_modeltest.iqtree
+iqtree3 -s outputs/DENV_alignment_cleaned.fas -m <BEST_MODEL> -B 1000 --prefix outputs/DENV_ML

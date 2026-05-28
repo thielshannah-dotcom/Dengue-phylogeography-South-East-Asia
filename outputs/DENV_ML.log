@@ -1,0 +1,456 @@
+IQ-TREE version 3.1.2 for MacOS Intel 64-bit built May  7 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBookPro (AVX2, FMA3, 16 GB RAM)
+Command: /Users/alexis/Desktop/iqtree-3.1.2-macOS-intel/bin/iqtree3 -s outputs/DENV_alignment_cleaned.fas -m MFP -B 1000 -T AUTO --prefix outputs/DENV_ML
+Seed:    339760 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed May 13 03:02:23 2026
+Kernel:  AVX+FMA - auto-detect threads (12 CPU cores detected)
+
+Reading alignment file outputs/DENV_alignment_cleaned.fas ... Fasta format detected
+Reading fasta file: done in 0.046504 secs using 89.47% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0414689 secs using 684.1% CPU
+Alignment has 212 sequences with 11000 columns, 4287 distinct patterns
+2555 parsimony-informative, 2364 singleton sites, 6080 constant sites
+       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000921011 secs using 999.9% CPU
+   1  H-13     0.00%    passed     99.92%
+   2  H-44     0.00%    passed     99.38%
+   3  H-40     0.00%    passed     99.85%
+   4  H-178    0.00%    passed     99.40%
+   5  H-116    0.00%    passed     99.08%
+   6  H-124    0.00%    passed     99.56%
+   7  H-248    0.00%    passed     99.62%
+   8  H-426    0.00%    passed     95.58%
+   9  H-295    0.00%    passed     98.92%
+  10  H-354    0.00%    passed     98.97%
+  11  H-384    0.00%    passed     97.14%
+  12  H-414    0.00%    passed     99.44%
+  13  H-353    0.00%    passed     98.52%
+  14  H-88     0.00%    passed     98.89%
+  15  H-401    0.00%    passed     98.14%
+  16  H-290    0.00%    passed     97.18%
+  17  H-317    0.00%    passed     97.51%
+  18  H-379    0.00%    passed     96.60%
+  19  H-34     0.00%    passed     99.54%
+  20  H-139    0.00%    passed     99.11%
+  21  H-188    0.00%    passed     99.10%
+  22  H-441    0.00%    passed     98.64%
+  23  H-136    0.00%    passed     99.44%
+  24  H-425    0.00%    passed     99.54%
+  25  H-446    0.00%    passed     99.70%
+  26  H-12     0.00%    passed     99.96%
+  27  H-101    0.00%    passed     99.43%
+  28  H-76     0.00%    passed     99.94%
+  29  H-156    0.00%    passed     99.90%
+  30  H-56     0.00%    passed     99.94%
+  31  H-196    0.00%    passed     99.91%
+  32  H-60     0.00%    passed     99.72%
+  33  H-257    0.00%    passed     99.60%
+  34  H-109    0.00%    passed     99.89%
+  35  H-236    0.00%    passed     99.63%
+  36  H-404    0.00%    passed     99.91%
+  37  H-191    0.00%    passed     99.55%
+  38  H-253    0.00%    passed     99.91%
+  39  H-190    0.00%    passed     99.36%
+  40  H-207    0.00%    passed     98.40%
+  41  H-10     0.00%    passed    100.00%
+  42  H-309    0.00%    passed     99.88%
+  43  H-25     0.00%    passed     99.77%
+  44  H-312    0.00%    passed     99.97%
+  45  H-119    0.00%    passed     99.30%
+  46  H-32     0.00%    passed     99.31%
+  47  H-149    0.00%    passed     99.70%
+  48  H-138    0.00%    passed     99.84%
+  49  H-479    0.00%    passed     99.42%
+  50  H-360    0.00%    passed     99.91%
+  51  H-394    0.00%    passed     99.86%
+  52  H-345    0.00%    passed     99.97%
+  53  H-567    0.00%    passed     99.92%
+  54  H-97     0.00%    passed     99.45%
+  55  H-406    0.00%    passed     99.98%
+  56  H-580    0.00%    passed     99.93%
+  57  H-267    0.00%    passed     99.98%
+  58  H-330    0.00%    passed     99.92%
+  59  H-66     0.00%    passed     99.88%
+  60  H-282    0.00%    passed     99.73%
+  61  H-52     0.00%    passed     97.25%
+  62  H-15     0.00%    passed     99.99%
+  63  H-70     0.00%    passed     99.34%
+  64  H-276    0.00%    passed     99.86%
+  65  H-371    0.00%    passed     99.93%
+  66  H-391    0.00%    passed     98.98%
+  67  H-57     0.00%    passed     99.93%
+  68  H-53     0.00%    passed     99.26%
+  69  H-268    0.00%    passed     97.30%
+  70  H-251    0.00%    passed     99.89%
+  71  H-111    0.00%    passed     99.98%
+  72  H-252    0.00%    passed     99.78%
+  73  H-429    0.00%    passed     99.78%
+  74  H-96     0.00%    passed     99.94%
+  75  H-375    0.00%    passed     99.75%
+  76  H-240    0.00%    passed     99.95%
+  77  H-33     0.00%    passed     98.86%
+  78  H-135    0.00%    passed     99.97%
+  79  H-185    0.00%    passed     99.47%
+  80  H-202    0.00%    passed     99.96%
+  81  H-8      0.00%    passed     99.73%
+  82  H-221    0.00%    passed     98.05%
+  83  H-324    0.00%    passed     99.45%
+  84  H-467    0.00%    passed     99.44%
+  85  H-92     0.00%    passed     99.70%
+  86  H-362    0.00%    passed     99.92%
+  87  H-291    0.00%    passed     99.98%
+  88  H-380    0.00%    passed     97.98%
+  89  H-75     0.00%    passed     98.98%
+  90  H-270    0.00%    passed     99.72%
+  91  H-65     0.00%    passed     99.15%
+  92  H-398    0.00%    passed     96.84%
+  93  H-144    0.00%    passed     99.60%
+  94  H-397    0.00%    passed     97.98%
+  95  H-127    0.00%    passed     97.85%
+  96  H-365    0.00%    passed     99.00%
+  97  H-107    0.00%    passed     99.69%
+  98  H-201    0.00%    passed     96.18%
+  99  H-298    0.00%    passed     99.50%
+ 100  H-147    0.00%    passed     98.67%
+ 101  H-158    0.00%    passed     99.84%
+ 102  H-200    0.00%    passed     99.59%
+ 103  H-249    0.00%    passed     99.77%
+ 104  H-72     0.00%    passed     99.86%
+ 105  H-349    0.00%    passed     99.98%
+ 106  H-382    0.00%    passed     99.64%
+ 107  H-122    0.00%    passed     98.68%
+ 108  H-287    0.00%    passed     97.33%
+ 109  H-305    0.00%    passed     99.63%
+ 110  H-332    0.00%    passed     99.99%
+ 111  H-308    0.00%    passed     99.63%
+ 112  H-453    0.00%    passed     99.61%
+ 113  H-1      0.00%    passed     99.71%
+ 114  H-35     0.00%    passed     99.99%
+ 115  H-46     0.00%    passed     99.92%
+ 116  H-41     0.00%    passed     99.83%
+ 117  H-176    0.00%    passed     99.98%
+ 118  H-433    0.00%    passed     99.73%
+ 119  H-277    0.00%    passed     99.86%
+ 120  H-320    0.00%    passed     99.77%
+ 121  H-413    0.00%    passed     99.97%
+ 122  H-409    0.00%    passed     99.49%
+ 123  H-281    0.00%    passed     98.63%
+ 124  H-339    0.00%    passed     99.83%
+ 125  H-237    0.00%    passed     99.81%
+ 126  H-304    0.00%    passed     99.28%
+ 127  H-195    0.00%    passed     99.89%
+ 128  H-198    0.00%    passed     99.05%
+ 129  H-311    0.00%    passed     99.67%
+ 130  H-340    0.00%    passed     97.33%
+ 131  H-374    0.00%    passed     99.52%
+ 132  H-223    0.00%    passed     99.66%
+ 133  H-80     0.00%    passed     98.69%
+ 134  H-321    0.00%    passed     98.62%
+ 135  H-351    0.00%    passed     99.50%
+ 136  H-241    0.00%    passed     99.01%
+ 137  H-278    0.00%    passed     98.84%
+ 138  H-306    0.00%    passed     99.41%
+ 139  H-336    0.00%    passed     98.82%
+ 140  H-451    0.00%    passed     98.77%
+ 141  H-238    0.00%    passed     97.50%
+ 142  H-333    0.00%    passed     98.02%
+ 143  H-363    0.00%    passed     99.68%
+ 144  H-434    0.00%    passed     99.71%
+ 145  H-16     0.00%    passed     99.96%
+ 146  H-100    0.00%    passed     99.35%
+ 147  H-358    0.00%    passed     99.92%
+ 148  H-348    0.00%    passed     99.25%
+ 149  H-411    0.00%    passed     99.90%
+ 150  H-14     0.00%    passed     99.56%
+ 151  H-84     0.00%    passed     99.38%
+ 152  H-378    0.00%    passed     99.87%
+ 153  H-183    0.00%    passed     99.36%
+ 154  H-255    0.00%    passed     98.45%
+ 155  H-51     0.00%    passed     99.88%
+ 156  H-64     0.00%    passed     99.98%
+ 157  H-164    0.00%    passed     99.83%
+ 158  H-264    0.00%    passed     99.82%
+ 159  H-59     0.00%    passed     97.80%
+ 160  H-194    0.00%    passed     97.73%
+ 161  H-129    0.00%    passed     99.78%
+ 162  H-440    0.00%    passed     99.93%
+ 163  H-153    0.00%    passed     99.53%
+ 164  H-50     0.00%    passed     98.35%
+ 165  H-266    0.00%    passed     97.94%
+ 166  H-128    0.00%    passed     99.57%
+ 167  H-393    0.00%    passed     99.22%
+ 168  H-174    0.00%    passed     98.46%
+ 169  H-206    0.00%    passed     99.17%
+ 170  H-45     0.00%    passed     99.71%
+ 171  H-154    0.00%    passed     99.48%
+ 172  H-143    0.00%    passed     99.99%
+ 173  H-359    0.00%    passed     99.15%
+ 174  H-387    0.00%    passed     99.97%
+ 175  H-573    0.00%    passed     99.96%
+ 176  H-55     0.00%    passed     99.97%
+ 177  H-280    0.00%    passed    100.00%
+ 178  H-338    0.00%    passed     99.73%
+ 179  H-121    0.00%    passed     99.82%
+ 180  H-157    0.00%    passed     99.08%
+ 181  H-242    0.00%    passed     99.26%
+ 182  H-81     0.00%    passed     99.35%
+ 183  H-346    0.00%    passed     98.65%
+ 184  H-376    0.00%    passed     99.28%
+ 185  H-49     0.00%    passed     99.37%
+ 186  H-275    0.00%    passed     99.92%
+ 187  H-335    0.00%    passed     99.58%
+ 188  H-370    0.00%    passed     99.83%
+ 189  H-37     0.00%    passed     99.74%
+ 190  H-123    0.00%    passed     99.82%
+ 191  H-104    0.00%    passed     99.77%
+ 192  H-313    0.00%    passed     99.67%
+ 193  H-344    0.00%    passed     99.42%
+ 194  H-220    0.00%    passed     98.42%
+ 195  H-94     0.00%    passed     96.56%
+ 196  H-347    0.00%    passed     97.13%
+ 197  H-381    0.00%    passed     99.36%
+ 198  H-218    0.00%    passed     99.43%
+ 199  H-307    0.00%    passed     98.06%
+ 200  H-226    0.00%    passed     98.47%
+ 201  H-246    0.00%    passed     97.68%
+ 202  H-18     0.00%    passed     99.55%
+ 203  H-67     0.00%    passed     98.55%
+ 204  H-91     0.00%    passed     99.07%
+ 205  H-140    0.00%    passed     99.23%
+ 206  H-215    0.00%    passed     99.76%
+ 207  H-180    0.00%    passed     99.73%
+ 208  H-232    0.00%    passed     98.08%
+ 209  H-219    0.00%    passed     98.95%
+ 210  H-118    0.00%    passed     99.61%
+ 211  H-126    0.00%    passed     98.74%
+ 212  H-133    0.00%    passed     99.62%
+****  TOTAL    0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.00266004 secs using 716.6% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.129 seconds
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+8 trees examined
+Threads: 1 / Time: 12.224 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -155092
+Threads: 2 / Time: 7.788 sec / Speedup: 1.570 / Efficiency: 78% / LogL: -155092
+Threads: 3 / Time: 5.520 sec / Speedup: 2.214 / Efficiency: 74% / LogL: -155092
+Threads: 4 / Time: 5.034 sec / Speedup: 2.428 / Efficiency: 61% / LogL: -155092
+Threads: 5 / Time: 3.871 sec / Speedup: 3.158 / Efficiency: 63% / LogL: -155092
+Threads: 6 / Time: 4.036 sec / Speedup: 3.029 / Efficiency: 50% / LogL: -155092
+Threads: 7 / Time: 3.624 sec / Speedup: 3.373 / Efficiency: 48% / LogL: -155092
+Determining AUTO threadcount: done in 42.1592 secs using 316.9% CPU
+BEST NUMBER OF THREADS: 5
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -94313.311
+Optimal log-likelihood: -94313.304
+Rate parameters:  A-C: 1.01348  A-G: 0.95078  A-T: 0.96068  C-G: 0.99227  C-T: 0.96957  G-T: 1.00000
+Base frequencies:  A: 0.256  C: 0.244  G: 0.249  T: 0.251
+Proportion of invariable sites: 0.270
+Gamma shape alpha: 1.400
+Parameters optimization took 1 rounds (0.306 sec)
+Time for fast ML tree search: 1.818 seconds
+
+NOTE: ModelFinder requires 311 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 11000 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            96059.297    421 192960.594   192994.185   196036.273
+  2  JC+I          94470.067    422 189784.134   189817.887   192867.118
+  3  JC+G4         94317.969    422 189479.938   189513.691   192562.922
+  4  JC+I+G4       94316.768    423 189479.537   189513.454   192569.827
+  5  JC+R2         94320.806    423 189487.611   189521.528   192577.901
+  6  JC+R3         94318.927    425 189487.854   189522.098   192592.755
+ 14  JC+I+R2       94317.535    424 189483.069   189517.150   192580.665
+ 15  JC+I+R3       94315.944    426 189483.888   189518.297   192596.096
+ 25  JC+G4         94317.969    422 189479.938   189513.691   192562.922
+ 26  JC+I+G4       94316.768    423 189479.537   189513.454   192569.827
+ 47  F81+G4        94317.988    422 189479.977   189513.730   192562.961
+ 48  F81+I+G4      94316.783    423 189479.566   189513.482   192569.856
+ 69  F81+F+G4      94317.117    425 189484.234   189518.479   192589.136
+ 70  F81+F+I+G4    94315.903    426 189483.807   189518.216   192596.014
+ 91  K2P+G4        94316.793    423 189479.585   189513.502   192569.875
+ 92  K2P+I+G4      94315.577    424 189479.154   189513.234   192576.750
+113  K2P+G4        94316.793    423 189479.585   189513.502   192569.875
+114  K2P+I+G4      94315.577    424 189479.154   189513.234   192576.750
+135  HKY+G4        94316.793    423 189479.586   189513.503   192569.877
+136  HKY+I+G4      94315.572    424 189479.144   189513.224   192576.740
+157  HKY+F+G4      94315.926    426 189483.852   189518.261   192596.059
+158  HKY+F+I+G4    94314.703    427 189483.406   189517.980   192602.919
+179  TNe+G4        94316.771    424 189481.543   189515.623   192579.139
+180  TNe+I+G4      94315.546    425 189481.093   189515.337   192585.994
+201  TNe+G4        94316.771    424 189481.543   189515.623   192579.139
+202  TNe+I+G4      94315.546    425 189481.093   189515.337   192585.994
+223  TN+G4         94316.766    424 189481.531   189515.611   192579.127
+224  TN+I+G4       94315.540    425 189481.079   189515.324   192585.981
+245  TN+F+G4       94315.812    427 189485.625   189520.198   192605.137
+246  TN+F+I+G4     94314.570    428 189485.141   189519.880   192611.959
+267  K3P+G4        94316.000    424 189480.000   189514.081   192577.596
+268  K3P+I+G4      94314.770    425 189479.540   189513.784   192584.441
+289  K3P+G4        94316.000    424 189480.000   189514.081   192577.596
+290  K3P+I+G4      94314.770    425 189479.540   189513.784   192584.441
+311  K3Pu+G4       94316.001    424 189480.001   189514.082   192577.597
+312  K3Pu+I+G4     94314.766    425 189479.532   189513.776   192584.433
+333  K3Pu+F+G4     94315.101    427 189484.203   189518.776   192603.715
+334  K3Pu+F+I+G4   94313.859    428 189483.718   189518.457   192610.537
+355  TPM2+G4       94316.762    424 189481.523   189515.604   192579.119
+356  TPM2+I+G4     94315.533    425 189481.067   189515.311   192585.968
+377  TPM2+G4       94316.762    424 189481.523   189515.604   192579.119
+378  TPM2+I+G4     94315.533    425 189481.067   189515.311   192585.968
+399  TPM2u+G4      94316.752    424 189481.504   189515.585   192579.100
+400  TPM2u+I+G4    94315.519    425 189481.037   189515.282   192585.939
+421  TPM2u+F+G4    94315.868    427 189485.737   189520.310   192605.249
+422  TPM2u+F+I+G4  94314.634    428 189485.269   189520.008   192612.087
+443  TPM3+G4       94316.791    424 189481.582   189515.662   192579.178
+444  TPM3+I+G4     94315.566    425 189481.132   189515.376   192586.033
+465  TPM3+G4       94316.791    424 189481.582   189515.662   192579.178
+466  TPM3+I+G4     94315.566    425 189481.132   189515.376   192586.033
+487  TPM3u+G4      94316.791    424 189481.582   189515.662   192579.178
+488  TPM3u+I+G4    94315.560    425 189481.120   189515.365   192586.022
+509  TPM3u+F+G4    94315.512    427 189485.024   189519.597   192604.536
+510  TPM3u+F+I+G4  94314.281    428 189484.563   189519.301   192611.381
+531  TIMe+G4       94315.971    425 189481.943   189516.187   192586.844
+532  TIMe+I+G4     94314.735    426 189481.471   189515.879   192593.678
+553  TIMe+G4       94315.971    425 189481.943   189516.187   192586.844
+554  TIMe+I+G4     94314.735    426 189481.471   189515.879   192593.678
+575  TIM+G4        94315.972    425 189481.943   189516.188   192586.845
+576  TIM+I+G4      94314.731    426 189481.462   189515.871   192593.669
+597  TIM+F+G4      94314.993    428 189485.986   189520.725   192612.804
+598  TIM+F+I+G4    94313.733    429 189485.466   189520.371   192619.590
+619  TIM2e+G4      94316.719    425 189483.438   189517.682   192588.339
+620  TIM2e+I+G4    94315.471    426 189482.942   189517.351   192595.150
+641  TIM2e+G4      94316.719    425 189483.438   189517.682   192588.339
+642  TIM2e+I+G4    94315.471    426 189482.942   189517.351   192595.150
+663  TIM2+G4       94316.719    425 189483.439   189517.683   192588.340
+664  TIM2+I+G4     94315.468    426 189482.935   189517.344   192595.142
+685  TIM2+F+G4     94315.764    428 189487.528   189522.267   192614.347
+686  TIM2+F+I+G4   94314.519    429 189487.038   189521.942   192621.162
+707  TIM3e+G4      94316.760    425 189483.521   189517.765   192588.422
+708  TIM3e+I+G4    94315.529    426 189483.058   189517.467   192595.265
+729  TIM3e+G4      94316.760    425 189483.521   189517.765   192588.422
+730  TIM3e+I+G4    94315.529    426 189483.058   189517.467   192595.265
+751  TIM3+G4       94316.761    425 189483.521   189517.766   192588.423
+752  TIM3+I+G4     94315.524    426 189483.049   189517.457   192595.256
+773  TIM3+F+G4     94315.396    428 189486.793   189521.531   192613.611
+774  TIM3+F+I+G4   94314.148    429 189486.296   189521.201   192620.420
+795  TVMe+G4       94315.950    426 189483.899   189518.308   192596.106
+796  TVMe+I+G4     94314.698    427 189483.396   189517.969   192602.909
+817  TVMe+G4       94315.950    426 189483.899   189518.308   192596.106
+818  TVMe+I+G4     94314.698    427 189483.396   189517.969   192602.909
+839  TVM+G4        94315.949    426 189483.898   189518.307   192596.105
+840  TVM+I+G4      94314.694    427 189483.388   189517.962   192602.901
+861  TVM+F+G4      94314.652    429 189487.304   189522.208   192621.428
+862  TVM+F+I+G4    94313.414    430 189486.827   189521.898   192628.257
+883  SYM+G4        94315.928    427 189485.856   189520.430   192605.369
+884  SYM+I+G4      94314.672    428 189485.345   189520.084   192612.163
+905  SYM+G4        94315.928    427 189485.856   189520.430   192605.369
+906  SYM+I+G4      94314.672    428 189485.345   189520.084   192612.163
+927  GTR+G4        94315.922    427 189485.844   189520.417   192605.357
+928  GTR+I+G4      94314.663    428 189485.327   189520.066   192612.145
+949  GTR+F+G4      94314.540    430 189489.079   189524.150   192630.509
+950  GTR+F+I+G4    94313.284    431 189488.568   189523.805   192637.304
+Akaike Information Criterion:           HKY+I+G4
+Corrected Akaike Information Criterion: HKY+I+G4
+Bayesian Information Criterion:         JC+G4
+Best-fit model: JC+G4 chosen according to BIC
+
+All model information printed to outputs/DENV_ML.model.gz
+CPU time for ModelFinder: 362.908 seconds (0h:6m:2s)
+Wall-clock time for ModelFinder: 88.478 seconds (0h:1m:28s)
+Generating 1000 samples for ultrafast bootstrap (seed: 339760)...
+
+NOTE: 134 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -94318.043
+Optimal log-likelihood: -94317.995
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.589
+Parameters optimization took 1 rounds (0.172 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0951841 secs using 502.7% CPU
+Computing ML distances took 0.097152 sec (of wall-clock time) 0.483042 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000315189 secs using 331.2% CPU
+Constructing RapidNJ tree: done in 0.00461197 secs using 358.9% CPU
+Computing RapidNJ tree took 0.004990 sec (of wall-clock time) 0.026840 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -94381.444
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 9.158 second
+Computing log-likelihood of 98 initial trees ... 5.576 seconds
+Current best score: -94317.908
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -94317.895
+Iteration 10 / LogL: -94317.912 / Time: 0h:1m:52s
+Iteration 20 / LogL: -94317.924 / Time: 0h:2m:0s
+Finish initializing candidate tree set (10)
+Current best tree score: -94317.895 / CPU time: 31.664
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -94318.029 / Time: 0h:2m:13s (0h:1m:50s left)
+Iteration 40 / LogL: -94317.996 / Time: 0h:2m:26s (0h:1m:30s left)
+Iteration 50 / LogL: -94317.981 / Time: 0h:2m:40s (0h:1m:15s left)
+Log-likelihood cutoff on original alignment: -94375.325
+Iteration 60 / LogL: -94317.967 / Time: 0h:2m:55s (0h:1m:0s left)
+Iteration 70 / LogL: -94318.029 / Time: 0h:3m:8s (0h:0m:44s left)
+Iteration 80 / LogL: -94317.959 / Time: 0h:3m:22s (0h:0m:30s left)
+Iteration 90 / LogL: -94318.028 / Time: 0h:3m:35s (0h:0m:15s left)
+Iteration 100 / LogL: -94318.045 / Time: 0h:3m:47s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -94375.642
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:3m:50s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -94317.895
+Optimal log-likelihood: -94317.895
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.588
+Parameters optimization took 1 rounds (0.129 sec)
+BEST SCORE FOUND : -94317.895
+Creating bootstrap support values...
+Split supports printed to NEXUS file outputs/DENV_ML.splits.nex
+Total tree length: 0.947
+
+Total number of iterations: 102
+CPU time used for tree search: 660.402 sec (0h:11m:0s)
+Wall-clock time used for tree search: 141.458 sec (0h:2m:21s)
+Total CPU time used: 1028.294 sec (0h:17m:8s)
+Total wall-clock time used: 231.121 sec (0h:3m:51s)
+
+Computing bootstrap consensus tree...
+Reading input file outputs/DENV_ML.splits.nex...
+212 taxa and 683 splits.
+Consensus tree written to outputs/DENV_ML.contree
+Reading input trees file outputs/DENV_ML.contree
+Log-likelihood of consensus tree: -94318.149
+
+Analysis results written to: 
+  IQ-TREE report:                outputs/DENV_ML.iqtree
+  Maximum-likelihood tree:       outputs/DENV_ML.treefile
+  Likelihood distances:          outputs/DENV_ML.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          outputs/DENV_ML.splits.nex
+  Consensus tree:                outputs/DENV_ML.contree
+  Screen log file:               outputs/DENV_ML.log
+
+Date and Time: Wed May 13 03:06:14 2026
